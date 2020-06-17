@@ -1,0 +1,162 @@
+body {
+  background-color: #ededed;
+}
+
+.clr {
+  clear: both;
+}
+
+.button {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button :hover {
+  background-color: tomato;
+  color: white;
+}
+
+.box-1 {
+  border: 1px black solid;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #cecece;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+.box-1 h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box-1 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+.box-2 {
+  border: 1px black solid;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #cecece;
+}
+.container {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.box-3 {
+  border: 1px black solid;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  background-color: #cecece;
+  border-radius: 10px;
+}
+
+.box-3 ul {
+  list-style-type: symbols(❤);
+  padding-left: 30px;
+}
+.box-3 h2 {
+  text-align: center;
+}
+
+.box-3 li {
+  list-style-image: url('./images/hiclipart_rsz.png');
+  padding-bottom: 7px;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+li :hover {
+  color: red;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  border: 1px solid black;
+  background-color: brown;
+  color: whitesmoke;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding-bottom: 16px;
+}
+
+.fix-button {
+  position: fixed;
+  left: 10px;
+  top: 50px;
+}
+
+.p-box {
+  height: 50%;
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 10px;
+  background-image: url('./images/light_abstract.jpg');
+  background-position: center;
+}
+
+.list-container {
+  text-align: left;
+  border: 1px solid black;
+  padding: 5px;
+
+  margin-top: 8px;
+}
+.list-box li {
+  padding: 5px;
+  margin: 2px;
+  list-style-image: url('./images/hiclipart_rsz.png');
+}
+/*psedo classes................*/
+
+.list-box li:first-child {
+  background: red;
+}
+
+.list-box li:last-child {
+  background: yellow;
+}
+
+.list-box li:nth-child(5) {
+  background: palegreen;
+}
+
+.list-box li:nth-child(even) {
+  background: grey;
+}
